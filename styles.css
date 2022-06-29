@@ -1,0 +1,29 @@
+* {
+    border: 2px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+}
+
+.section1 {
+    flex: 1;
+}
+
+.section2 {
+    flex: 1;
+}
+
+.section3 {
+    flex: 1;
+}
+
+.section4 {
+    flex: 1;
+}
