@@ -1,29 +1,148 @@
 * {
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #1F2937;
+    color: white;
 }
 
 .header {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .section1 {
     flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+
+.section1 .container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.section1 .placeholder-image {
+    height: 250px;
+    width: 500px;
+    flex-shrink: 0;
+    margin-right: 200px;
 }
 
 .section2 {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-captions {
+    display: flex;
+    justify-content: center;
+    margin: 0 300px;
+}
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption {
+    text-align: center;
 }
 
 .section3 {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    margin: 0 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.person {
+    margin: 0 300px;
+    align-self:flex-end;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section4 {
     flex: 1;
+    display: flex;
+}
+
+.card {
+    flex:1;
+    display: flex;
+    background-color: #3882F6;
+    margin: 0 200px;
+}
+
+.card .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.card .container2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.card .container2 .sign-up-button {
+    margin: 40px 100px;
+    padding: 8px 40px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.header-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+.header-links {
+    flex: 1;
+    margin-right: 200px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px;
 }
